@@ -41,7 +41,6 @@ int elementCount = int.Parse(Console.ReadLine());
 int[] arr = new int[elementCount];
 
 int[] array = FillArrayWithRandomNumbers(elementCount);
-
 int positivenumber = SearchPositiveNumber(array);
 
 System.Console.WriteLine($"Количество цифр больше нуля = {positivenumber}");
